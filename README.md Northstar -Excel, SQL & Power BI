@@ -1,0 +1,41 @@
+Northstar HR Analytics — Excel, SQL & Power BI
+
+This is an end-to-end HR Analytics project where I used Excel, SQL, and Power BI to analyze employee data and turn raw data into meaningful business insights.
+
+🔹 Excel
+
+Used Excel for data cleaning, calculations, business logic, lookups, employee classification, and summary analysis.
+
+Key skills included:
+
+IF / IFERROR
+COUNTIF / SUMIF / AVERAGEIF
+VLOOKUP
+DATEDIF / YEAR / TODAY
+FILTER
+Conditional formatting
+Sorting and filtering
+🔹 SQL
+
+Used SQL to answer practical HR and business questions, analyze employee information, and extract meaningful insights from the dataset.
+
+🔹 Power BI
+
+Built an interactive HR dashboard to visualize key findings and make the analysis easier to understand for business decision-making.
+
+The dashboard focuses on areas such as:
+
+Employee performance
+Attendance and absent days
+Employee satisfaction
+Salary and bonus
+Department analysis
+Employee demographics
+Performance ratings
+🎯 Project Objective
+
+The goal of this project was to demonstrate an end-to-end data analytics workflow — from preparing and analyzing raw employee data to presenting insights through an interactive dashboard.
+
+Tools: Excel • SQL • Power BI
+
+This project demonstrates practical skills relevant to Data Analyst, Business Analyst, Financial Data Analyst, and Business Intelligence roles.
