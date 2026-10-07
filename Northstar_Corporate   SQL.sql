@@ -1,0 +1,21 @@
+use portfolio;
+select * from northstar_corporate;
+select First_Name, Last_Name, Annual_Salary from northstar_corporate ;
+select count(*)from northstar_corporate;
+select count(*) from northstar_corporate where Status = "active";
+select department, count(*) from northstar_corporate group by Department;
+select city, count(*) from northstar_corporate group by city;
+select employment_type, count(*) from northstar_corporate group by Employment_Type;
+select avg(annual_salary) from northstar_corporate where Annual_Salary;
+select max(annual_salary) from northstar_corporate where Annual_Salary;
+select min(annual_salary) from northstar_corporate where Annual_Salary;
+select sum(Annual_Salary) from northstar_corporate where Annual_Salary;
+select sum(bonus) from northstar_corporate where Bonus;
+select avg(Satisfaction_Score) from northstar_corporate where satisfaction_score;
+select Department, avg(annual_salary) from northstar_corporate group by Department;
+select department, sum(annual_salary) from northstar_corporate group by Department;
+select Department, avg(satisfaction_score) from northstar_corporate group by Department;
+select Department, avg(annual_salary) as average_salary from northstar_corporate group by Department having avg(Annual_Salary)  > 400000;
+select employee_id, First_Name, Last_Name, Department, Annual_Salary from northstar_corporate where Annual_Salary > (select avg(Annual_Salary) from northstar_corporate);
+select employee_id, first_name, last_name, department, sales_target, sales_achieved from northstar_corporate where Sales_Achieved > Sales_Target;
+select employee_id, first_name, last_name, department, sales_target, sales_achieved, from northstar
